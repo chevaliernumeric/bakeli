@@ -136,7 +136,12 @@ section{
 .rouge{
     border-top: 5px solid #e44d26;
     background-color: rgba(228,77,38, 0.15);
-    padding:40px;
+    min-height: 100vh;
+}
+.rouge p{
+    max-width: 600px;
+    display: block;
+    margin: 0px auto;
 }
 /*media query*/
 @media screen and (max-width:780px){
